@@ -1,0 +1,18 @@
+.App {
+  width: 500px;
+}
+
+
+.Borderdescr{
+  border: 2px solid teal;
+  padding: 30px 10px;
+  display:flex;
+  justify-content: space-between;
+  height: 100px;
+  margin: 10px 10px;
+  width: 80;
+  align-items: start;
+}
+
+
+
