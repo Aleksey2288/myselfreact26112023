@@ -2,8 +2,6 @@ import classes from "./styles/App.module.css";
 import ReturnPost from "./components/ReturnPost";
 
 import React, { useRef, useState } from "react";
-import MyButton from "./UI/button/MyButton";
-import MyInput from "./UI/input/MyInput";
 import PostForm from "./components/PostForm";
 
 function App() {
@@ -22,6 +20,10 @@ function App() {
   };
 
   const removePost = (post) => {
+    setPosts(posts.filter((p) => p.id !== post.id));
+  };
+
+  const removePost1 = (post) => {
     setPosts(posts.filter((p) => p.id !== post.id));
   };
 
