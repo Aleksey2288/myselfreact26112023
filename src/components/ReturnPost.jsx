@@ -3,7 +3,7 @@ import classes from '../styles/App.module.css'
 
 const ReturnPost = (props) => {   
     return(
-        <div className={classes.Borderdescr}>
+        <div className={classes.Borderdescr} >
             <div>
                 <div>
                      <h3>{props.number}. {props.post.title}</h3>
